@@ -1,4 +1,0 @@
--citaty
--... prostě pořádáme hry
--JAK muzu pridavat na stranky z vlastniho GITHUB uctu?
-- Opravit .gitignore
