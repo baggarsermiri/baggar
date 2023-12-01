@@ -938,20 +938,7 @@ a.accordion-toggle  i{
   position: relative;
 }
 
-.testimonial-inner .pull-left:after{
-  content: "";
-  position: absolute;
-  width: 9px;
-  height: 9px;
-  top: 50%;
-  margin-top: -5px;
-  background: #FFF;
-  -webkit-transform: rotate(45deg);
-  border: 1px solid #e7e7e7;
-  right: -5px;
-  border-left: 0 none;
-  border-bottom: 0 none;
-}
+
 
 #partner {
   background: url(../images/partners/partner_bg.png) 50% 50% no-repeat;
@@ -974,11 +961,6 @@ a.accordion-toggle  i{
   padding: 0;
 }
 
-.partners ul li{
-  display: inline-block;
-  float: left;
-  width: 20%;
-}
 
 #conatcat-info{
   background: #fff url(../images/contact.png) no-repeat 90% 0;
@@ -2148,9 +2130,6 @@ ul.faq li > div h3 {
   font-size: 14px;
 }
 
-.post-tags {
-
-}
 
 .blog .blog-item .entry-meta {
   border-radius: 5px;
@@ -2416,9 +2395,7 @@ ul.sidebar-gallery {
   z-index: 99999;
 }
 
-.post_reply_comments h2 a{
- 
-}
+
 
 .message_heading {
   margin-bottom: 50px;
@@ -2549,8 +2526,8 @@ shortcodes page css
 .akce {
   text-align: left;
   border-color: #dad7d7;
-  %border-top-style: solid;
-  %border-radius: 20px;
+  border-top-style: solid;
+  border-radius: 20px;
   border-width: 1px;
   padding: 40px;
   margin-top: 30px;
