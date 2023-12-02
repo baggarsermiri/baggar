@@ -2526,7 +2526,7 @@ shortcodes page css
 .akce {
   text-align: left;
   border-color: #dad7d7;
-  border-top-style: solid;
+  border-top-style: none;
   border-radius: 20px;
   border-width: 1px;
   padding: 40px;
