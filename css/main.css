@@ -2543,4 +2543,19 @@ shortcodes page css
 }
 
 .td_text {
- font-size: 18px;
+font-size: 18px;}
+
+a.hidden_link:link {
+text-decoration: none;
+color: #dad7d7;
+}
+
+a.hidden_link:visited {
+    text-decoration: none;
+    color: #dad7d7;
+    }
+
+a.hidden_link:hover {
+    text-decoration: underline;
+    color: #dad7d7;
+    }
