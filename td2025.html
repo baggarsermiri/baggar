@@ -401,8 +401,14 @@
     <br>
     <div class="row">
         <div class="col-sm-6">
-        <br> <strong style="font-size: 22px;">Přihlašování účastníků (jak skupin tak jednotlivců) v únoru 2025.</strong> 
+        <br> <strong style="font-size: 22px;">Přihlašování účastníků (jak skupin tak jednotlivců) začne 7. února 2025.</strong>
+        <!--<br> <strong style="font-size: 22px;">Zde naleznete<a href="https://forms.gle/kbrnmqWuH6uaFobp7" target="_blank">REGISTRAČNÍ FORMULAŘ.</a></strong>--> 
         <br> <p><ul><li>Přihlašování pro skupiny i jednotlivce probíhá stejně.</li>
+            <li>Registrace bude ukončena v neděli 13. dubna 2025, po tomto datu už bude možné se přihlásit jen po domluvě přes email.</li>
+            <li>Pokud jste se registrovali a z nějakého důvodu se nemůžete účastnit, prosíme, napište nám.</li>
+            <li>Naše hra je určená především pro začátečníky a mladší, proto jsme se rozhodli nastavit omezení na poměr dospělí : mladiství v jednotlivých stranách. 
+                Nejvýše 50% maximálního počtu hráčů v jedné straně může být starší 18-ti let. 
+            </li>
             <li>Po přihlášení Vám potvrdíme přihlášku emailem. Účast na akci je podmíněná zaplacením účastnického poplatku při příjezdu na místo, jeho výše je 200Kč za hrajícího účastníka akce. </li>
             <li><strong style="font-size: 22px;">Každý účastník mladší 18-ti let je povinen přivést na místo souhlas rodičů s jeho/její účastí na akci: <a href="souhlas_zastupce_td25.pdf" target="_blank">SOUHLAS RODIČŮ</a></strong></li>
             <li>Přihlašujete se vždy do družiny jednoho ze "slavných hrdinů" (velitelů viz. výše). Ve hře jste pak povinní ctít barvů dannou pro zvolenou stranu. Zbytek o kostýmech, příbězích jendotlivých skupin se dočtete níže a při registraci.</li>
@@ -433,19 +439,51 @@
             <h1>Obsazenost stran - REGISTRACE ZAČNE V ÚNORU 2025</h1>
             <div class="col-sm-3" style="text-align: center; padding: 3%;">
                 <p><strong style="font-size: 22px; color: blue;"> Hrdiná družina <br> Viléma Maréchala</strong> 
-                <br> <br> <strong style="font-size: 22px;">0/20</strong></p> <!--4 lež do základu-->
+                <script>
+                    var deti_m = 0;
+                    var dospeli_m = 0;
+                    var celkem_m = deti_m + dospeli_m;
+                    var max_vsichni = 20;
+                    var pomer_m = dospeli_m*100 / max_vsichni;
+                </script>
+                <br> <br> <strong style="font-size: 22px;"><script>document.write(celkem_m + "/" + max_vsichni);</script></strong></p>
+                <br> <br> <i style="font-size: 18px;">Dospělích: <script>document.write(pomer_m + "%/50%");</script></i>
             </div>
+
             <div class="col-sm-3" style="text-align: center; padding: 3%;">
-                <p><strong style="font-size: 22px; color: darkred;"> Posádka <br> Krvelačné Kláry</strong> 
-                <br> <br> <strong style="font-size: 22px;">0/20</strong></p> <!--5 lež do základu, 8 je rezervace pro Baggar,tak uvidíme, 10 Teepee-->
+                <p><strong style="font-size: 22px; color: darkred;"> Posádka <br> Krvelačné Kláry</strong>
+                <script>
+                    var deti_red = 0;
+                    var dospeli_red = 0;
+                    var celkem_red = deti_red + dospeli_red;
+                    var pomer_red = dospeli_red*100 / max_vsichni;
+                </script>
+                <br> <br> <strong style="font-size: 22px;"><script>document.write(celkem_red + "/" + max_vsichni);</script></strong></p>
+                <br> <br> <i style="font-size: 18px;">Dospělích: <script>document.write(pomer_red + "%/50%");</script></i>
             </div>
+
             <div class="col-sm-3" style="text-align: center; padding: 3%;">
                 <p><strong style="font-size: 22px; color: rgb(82, 112, 82);"> Zaměstnanci <br> Kupce Harpagona</strong> 
-                <br> <br> <strong style="font-size: 22px;">0/20</strong></p> <!--3 lež do základu-->
+                <script>
+                    var deti_z = 0;
+                    var dospeli_z = 0;
+                    var celkem_z = deti_z + dospeli_z;
+                    var pomer_z = dospeli_z*100 / max_vsichni;
+                </script>
+                <br> <br> <strong style="font-size: 22px;"><script>document.write(celkem_z + "/" + max_vsichni);</script></strong></p>
+                <br> <br> <i style="font-size: 18px;">Dospělích: <script>document.write(pomer_z + "%/50%");</script></i>
             </div>
+
             <div class="col-sm-3" style="text-align: center; padding: 3%;">
-                <p><strong style="font-size: 22px; color: grey;"> Spojenctví Havětě <br> Lorda Latrodecta </strong> 
-                <br> <br> <strong style="font-size: 22px;">0/20</strong></p> <!--4 lež do základu-->
+                <p><strong style="font-size: 22px; color: grey;"> Spojenctví Havětě <br> Lorda Latrodecta </strong>
+                <script>
+                    var deti_c = 0;
+                    var dospeli_c = 0;
+                    var celkem_c = deti_c + dospeli_c;
+                    var pomer_c = dospeli_c*100 / max_vsichni;
+                </script>
+                <br> <br> <strong style="font-size: 22px;"><script>document.write(celkem_c + "/" + max_vsichni);</script></strong></p>
+                <br> <br> <i style="font-size: 18px;">Dospělích: <script>document.write(pomer_c + "%/50%");</script></i>
             </div>   
         </div>
 
