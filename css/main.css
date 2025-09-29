@@ -2559,3 +2559,10 @@ a.hidden_link:hover {
     text-decoration: underline;
     color: #dad7d7;
     }
+
+.rounded-video {
+  width: 600px;
+  border-radius: 40%;   /* round the corners */
+  overflow: hidden;      /* ensures the video content is clipped */
+  display: block;
+}
